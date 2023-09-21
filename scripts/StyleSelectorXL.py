@@ -125,18 +125,18 @@ class StyleSelectorXL(scripts.Script):
                 with FormRow():
                     with FormColumn(min_width=160):
                         is_enabled = gr.Checkbox(
-                            value=enabled, label="Enable Style Selector", info="Enable Or Disable Style Selector ")
+                            value=enabled, label="启用样式选择器", info="启用或禁用样式选择器 ")
                     with FormColumn(elem_id="Randomize Style"):
                         randomize = gr.Checkbox(
-                            value=False, label="Randomize Style", info="This Will Override Selected Style")
+                            value=False, label="随机样式", info="这将覆盖选定的样式")
                     with FormColumn(elem_id="Randomize For Each Iteration"):
                         randomizeEach = gr.Checkbox(
-                            value=False, label="Randomize For Each Iteration", info="Every prompt in Batch Will Have Random Style")
+                            value=False, label="每次迭代的随机化", info="每个批次的提示都会有随机的样式")
 
                 with FormRow():
                     with FormColumn(min_width=160):
                         allstyles = gr.Checkbox(
-                            value=False, label="Generate All Styles In Order", info="To Generate Your Prompt in All Available Styles, Its Better to set batch count to " + str(len(self.styleNames)) + " ( Style Count)")
+                            value=False, label="按顺序生成所有样式", info="为了在所有可用样式中生成您的提示，最好将批量计数设置为77（样式计数） " + str(len(self.styleNames)) + " ( Style Count)")
 
                 style_ui_type = shared.opts.data.get(
                     "styles_ui",  "radio-buttons")
