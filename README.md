@@ -2,7 +2,7 @@
 ## Style Selector for SDXL 1.0 完全汉化
 在原作者基础上修改完整的汉化，其他未变
 ![image](https://github.com/HelloARP/StyleSelectorXL_ZH/assets/100839391/dbe1d1bf-3bba-4ec4-b8bb-7f76bb8e995d)
-##
+## Style Selector for SDXL 1.0
 This repository contains a Automatic1111 Extension allows users to select and apply different styles to their inputs using SDXL 1.0.
 
 ### Styles
