@@ -1,4 +1,4 @@
-在原基础上修改汉化
+在原作者基础上修改汉化，其他未变
 ## Style Selector for SDXL 1.0
 
 This repository contains a Automatic1111 Extension allows users to select and apply different styles to their inputs using SDXL 1.0.
