@@ -1,6 +1,6 @@
 [
   {
-    "name": "base",
+    "name": "默认的(base)",
     "prompt": "{prompt}",
     "negative_prompt": ""
   },
@@ -175,7 +175,7 @@
     "negative_prompt": "peaceful, calm, minimalist, photorealistic"
   },
   {
-    "name": "GTA",
+    "name": "侠盗猎车手(GTA)",
     "prompt": "GTA-style artwork {prompt} . Satirical, exaggerated, pop art style, vibrant colors, iconic characters, action-packed",
     "negative_prompt": "realistic, black and white, low contrast, impressionist, cubist, noisy, blurry, deformed"
   },
